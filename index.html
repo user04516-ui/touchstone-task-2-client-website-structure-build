@@ -37,67 +37,89 @@
             </figcaption>    
     </figure><!--this adds text to image and an accessibility description-->
 
-    <h2>Place an Order</h2>
+    <h2>Let Us Serve You Something Frest Today</h2>
+    <p>Whether you are discovering us for the first time or a returning customer you can come the store to see
+        what we have as its coming out of the oven or order online if you know what you want. </p>
+
+    <h3>Come Visit Us</h3>
+    <p>We have a quaint little shop located at "address" and would love to see you soon.</p>
+
+    <h3>Pre-Order Online</h3>
+    <p>Placing an order online could not be easier.</p>
+    <p>Just pick what and how much you want. Tell us who the order is for, use our secure checkout and your order will be ready 
+        for pickup.</p>
+    
 
     <form action="/order" method="post">
         <fieldset>
             <legend>Select your favorites</legend>
 
             <label>
-                <input type="checkbox" name="donuts" value="donuts">Swirl Donuts
+                <input type="checkbox" name="menu" value="swirl_donuts">Swirl Donuts
             </label>
 
             <label for="quantity">Quantity:</label>
             <input type="number" id="quantity" name="quantity" min="1" max="50"><br>
 
             <label>
-                <input type="checkbox" name="donuts" value="donuts">Fresh Coffee
+                <input type="checkbox" name="menu" value="fresh_coffee">Fresh Coffee
             </label>
 
             <label for="quantity">Quantity:</label>
             <input type="number" id="quantity" name="quantity" min="1" max="50"><br>
 
             <label>
-                <input type="checkbox" name="donuts" value="donuts">Raisin Bread
+                <input type="checkbox" name="menu" value="raisin_bread">Raisin Bread
             </label>
 
             <label for="quantity">Quantity:</label>
             <input type="number" id="quantity" name="quantity" min="1" max="50"><br>
 
             <label>
-                <input type="checkbox" name="donuts" value="donuts">Twist Bread
+                <input type="checkbox" name="menu" value="twist_bread">Twist Bread
+            </label>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="50"><br>
+
+             <label>
+                <input type="checkbox" name="menu" value="perfect_baguettes">Perfect Baguettes
             </label>
 
             <label for="quantity">Quantity:</label>
             <input type="number" id="quantity" name="quantity" min="1" max="50"><br>
 
             <label>
-                <input type="checkbox" name="donuts" value="donuts">4 Assorted Cookies
+                <input type="checkbox" name="menu" value="4_assorted_cookies">4 Assorted Cookies
             </label>
 
             <label for="quantity">Quantity:</label>
             <input type="number" id="quantity" name="quantity" min="1" max="50"><br>
 
             <label>
-                <input type="checkbox" name="donuts" value="donuts">Perfect Baguettes
-            </label>
+                <input type="checkbox" name="menu" value="box_of_6_assorted_donuts">Box of 6 Assorted Donuts
+            </label><br>
 
-            <label for="quantity">Quantity:</label>
-            <input type="number" id="quantity" name="quantity" min="1" max="50"><br>
+            <label>
+                <input type="checkbox" name="menu" value="box_of_12_assorted_donuts">Box of 12 Assorted Donuts
+            </label>
 
 
         </fieldset>
 
         <fieldset>
-            <legend>Payment Information</legend>
+            <legend>Personal Information</legend>
 
             <label for="text">Full Name:</label>
             <input type="text" id="text">
             <br>
+            <label for="number">Phone Number:</label>
+            <input type="number" id="phone_number">
+            <br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email">
-             <br><br>   
-            <button type="submit">Checkout</button>
+            <br><br>
+            <button type="submit">Continue To Checkout</button>
 
         </fieldset>
 
