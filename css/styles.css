@@ -1,0 +1,38 @@
+                      /* how to add a comment in css files, use the open and closing symbols */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+    
+h1 {
+    font-size: 36px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+li {
+    padding: 8px;                       /* not necessary */
+    border-bottom: 1px solid gray;
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 6px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#page-title {
+    text-align: center;
+    border-bottom: 2px solid darkblue;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
